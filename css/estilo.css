@@ -5,8 +5,12 @@
 /*Header*/
 @media screen and (min-width:768px) {
     body {
-    background-color: #E2ACD0;
+    background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
 }
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+  }
 
 ul {
     list-style: none;
