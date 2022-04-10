@@ -1,8 +1,10 @@
 .html {
 	font-size: 62.5%;
 }
+
 /*Header*/
-body {
+@media screen and (min-width:768px) {
+    body {
     background-color: #E2ACD0;
 }
 
@@ -11,10 +13,6 @@ ul {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-/*Index Main*/
-main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -31,18 +29,29 @@ li {
     left: 45%
 }
 
+/*Index Main*/
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 500px;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 10px;
+    }
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .imagen1 {
     width: 500px;
     height: 480px;
-    position: relative;
-    left: 200px
-    
+    position: relative;    
 }
 
 .imagen2 {
     size: 100%;
     position: relative;
-    left: 400px;
 }
 
 .opacidad {
@@ -65,17 +74,17 @@ h1 {
     z-index: 10;
 }
 .subtituloImagen2 {
-    left: 950px;
+    left: 1000px;
     position: absolute;
-    top: 600px;
+    top: 550px;
     z-index: 10;
     color: palevioletred;
 }
 
 .someText {
-    left: 950px;
+    left: 1000px;
     position: absolute;
-    top: 660px;
+    top: 610px;
     z-index: 10;
 }
 
@@ -104,6 +113,13 @@ h1 {
 }
 
 /*Main catalogo*/
+
+.grid2 {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-row-gap: 25px;
+}
+
 .Producto1 {
     width: 300px;
     height: 300px;
