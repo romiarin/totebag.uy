@@ -3,10 +3,9 @@
 }
 
 /*Header*/
-@media screen and (min-width:768px) {
-    body {
-    background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
-}
+body {
+        background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
+    }
 
 .animate__animated.animate__fadeIn {
     --animate-duration: 4s;
@@ -54,7 +53,8 @@ main {
 }
 
 .imagen2 {
-    size: 100%;
+    height: 480px;
+    width: 300px;
     position: relative;
 }
 
@@ -185,3 +185,8 @@ h1 {
 .textoArticulo1 {
     text-align: left;
 }
+
+@media screen and (min-width:768px) {
+    body {
+        background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
+    }
