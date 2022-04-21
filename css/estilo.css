@@ -4,7 +4,7 @@
 
 /*Header*/
 body {
-        background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
+    background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
     }
 
 .animate__animated.animate__fadeIn {
@@ -33,7 +33,8 @@ li {
 }
 
 /*Index Main*/
-.grid{
+
+.grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 500px;
@@ -185,8 +186,3 @@ h1 {
 .textoArticulo1 {
     text-align: left;
 }
-
-@media screen and (min-width:768px) {
-    body {
-        background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
-    }

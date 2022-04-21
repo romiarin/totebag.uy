@@ -15,22 +15,25 @@
     <body>
         <header class="container-fluid">
             <img src="multimedia/Logo Tote.png" class="row col-12 logo animate__animated animate__fadeIn" alt="Logo">
-            <nav>
+            <nav class="col-lg-12 col-md-12 col-sm-1">
                 <ul>
-                    <li class="col-1"><a href=index.html>Inicio</a></li>
-                    <li class="col-1"><a href="catalogo.html">Catálogo</a></li>
-                    <li class="col-1"><a href="blog.html">Blog</a></li>
-                    <li class="col-1"><a href="contacto.html">Contacto</a></li>
-                </ul>
+                    <li><a href=index.html class="link-light nav-link">Inicio</a></li>
+                    <li><a href="catalogo.html" class="link-light nav-link">Catálogo</a></li>
+                    <li><a href="blog.html" class="link-light nav-link">Blog</a></li>
+                    <li class="col-6"><a href="contacto.html" class="link-light nav-link">Contacto</a></li>
+                    <form class="col-2 d-inline-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar...">
+                      </form>
+                </ul>                
             </nav>
         </header>
         
         <main class="container-fluid">
             <div class="grid">
-                <h1 class="row col-6">Titulo de la foto</h1>
-                <h2 class="row col-6 subtituloImagen1">Subtitulo</h2>
-                <h2 class="row col-6 subtituloImagen2">Subtitulo</h2>
-                <text class="row col-6 someText">Some text</text>
+                <h1 class="col-lg-6 col-md-6 col-sm-12">Titulo de la foto</h1>
+                <h2 class="col-lg-6 col-md-6 col-sm-12 subtituloImagen1">Subtitulo</h2>
+                <h2 class="col-lg-6 col-md-6 col-sm-12 subtituloImagen2">Subtitulo</h2>
+                <text class="col-lg-6 col-md-6 col-sm-12 someText">Some text</text>
                 <img src="multimedia/totebags2.jpg" class="row col-6 imagen1 opacidad " alt="Imagen Totebag">
                 <img src="multimedia/totebags.jpg" class="row col-6 imagen2" alt="Imagen Totebag">
             </div>
@@ -44,7 +47,7 @@
             <ul class="centrar">
                 <li class="col-2">Locales</li>
                 <li class="col-3">Trabaja con nosotros</li>
-                <li class="col-2"><a href="contacto.html">Contacto</a></li>
+                <li class="col-2"><a href="contacto.html" class="link-light nav-link">Contacto</a></li>
             </ul>
         </footer>
 
