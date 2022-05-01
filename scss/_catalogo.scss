@@ -1,4 +1,4 @@
-.transicion2 {
+.transition2 {
     height: 450px;
     transition: height 2s, width 1s;
 }
@@ -9,6 +9,7 @@
     }
 
 .productImage {
+    width: 400px;
     @include height (400px);
     position: relative;
     object-fit: cover;
@@ -16,4 +17,18 @@
 
 .imageCatalog {
     display:flex;
+}
+
+@media screen and (max-width:768px) {
+    .productImage {
+        @include height(300px);
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .productImage {
+        width: 300px;
+        @include height(300px);
+    }
 }

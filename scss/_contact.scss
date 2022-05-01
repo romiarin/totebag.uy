@@ -3,12 +3,15 @@
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.margenContacto {
+
+.contactInput {
     margin: 20px;
+    size: 20px;
 }
 
 .googleMaps {
     position: relative;
     left: 600px;
     bottom: 320px;
+    object-fit: cover;
 }
