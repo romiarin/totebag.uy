@@ -1,11 +1,14 @@
 @import "index";
+@import "contact";
+@import "catalogo";
+@import "blog";
 
-.html {
+html {
 	font-size: 62.5%;
 }
 
 body {
-    background-image: linear-gradient(#E2ACD0, rgb(223, 201, 205));
+    background:#E49BC4;
     }
 
 .animate__animated.animate__fadeIn {

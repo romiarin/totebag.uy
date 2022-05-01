@@ -11,56 +11,79 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.size {
+    font-size: 12pt;
+}
+
+.img-container {
+    position: relative;
+}
+
 .imagen1 {
-    width: 500px;
-    height: 480px;
-    position: relative;    
+    height: 450px;
 }
 
 .imagen2 {
-    height: 480px;
-    width: 300px;
-    position: relative;
+    height: 450px;
 }
 
 .opacidad {
     opacity: 80%;
 }
 
-h1 {
-    left: 250px;
+/*.titleImage1 {
     position: absolute;
-    top: 250px;
+    margin: 10px;
     z-index: 10;
-    font-size: 50px;
-    color: palevioletred;
+    font-size: 25px;
+    color: white;
 }
 
-.subtituloImagen1 {
-    left: 250px;
+.subtitleImage1 {
     position: absolute;
-    top: 350px;
+    margin: 10px;
+    top: 50px;
     z-index: 10;
-}
-.subtituloImagen2 {
-    left: 1000px;
+    font-size: 15px;
+    color: white;
+}*/
+
+.titleImage2 {
     position: absolute;
-    top: 550px;
+    bottom: 20px;
+    margin: 10px;
     z-index: 10;
-    color: palevioletred;
+    color: #E49BC4;
+    font-size: 25px;
 }
 
 .someText {
-    left: 1000px;
     position: absolute;
-    top: 610px;
+    bottom: 0;
+    margin: 10px;
     z-index: 10;
+    font-size: 15px;
+    color: white;
 }
 
 .centrar {
     text-align: center;
 }
 
-.margen {
+.subtitle3 {
+    color: white;
+    font-size: 30px;
     margin: 40px;
 }
+
+.p1 {
+    color: white;
+    font-size: 15px;
+    margin: 40px;
+}
+.searchButton{
+    color: white;
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
