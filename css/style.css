@@ -26,19 +26,16 @@ main {
 .opacidad {
   opacity: 80%; }
 
-.titleImage2 {
+.titleImage2, .someText {
   position: absolute;
-  bottom: 20px;
   margin: 10px;
   z-index: 10;
   color: #E49BC4;
+  bottom: 20px;
   font-size: 25px; }
 
 .someText {
-  position: absolute;
   bottom: 0;
-  margin: 10px;
-  z-index: 10;
   font-size: 15px;
   color: white; }
 
