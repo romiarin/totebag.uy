@@ -12,6 +12,16 @@ body {
     background:#E49BC4;
     }
 
+ol, ul {
+    padding-left: 0;
+}
+.size {
+    font-size: map-get($fontSizes, 15px);
+}
+.centerText {
+        text-align: center;
+}
+
 .animate__animated.animate__fadeIn {
     --animate-duration: 4s;
   }
@@ -48,5 +58,4 @@ li {
         display: block;
         position: relative;
     }
-
 }

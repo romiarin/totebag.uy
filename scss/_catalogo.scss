@@ -1,0 +1,19 @@
+.transicion2 {
+    height: 450px;
+    transition: height 2s, width 1s;
+}
+
+.transition2:hover {
+    width: 500px;
+    height: 500px;
+    }
+
+.productImage {
+    @include height (400px);
+    position: relative;
+    object-fit: cover;
+}
+
+.imageCatalog {
+    display:flex;
+}

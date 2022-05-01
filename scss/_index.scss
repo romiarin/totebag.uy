@@ -3,30 +3,26 @@
 @mixin height ($height) {
     height: $height;
 }
-
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 500px;
-    justify-items: center;
-    align-items: center;
-    grid-row-gap: 10px;
-    }
-
-ol, ul {
-        padding-left: 0;
-}
-
 main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.size {
-    font-size: map-get($fontSizes, 15px);
-}
-
 .img-container {
     position: relative;
+    .titleImage2 {
+        position: absolute;
+        margin: 10px;
+        z-index: 10;
+        color: #E49BC4;
+        bottom: 20px;
+        font-size: map-get($fontSizes, 25px);
+    }
+    .someText {
+        @extend .titleImage2;
+        bottom: 0;
+        font-size: map-get($fontSizes, 15px);
+        color: white;
+    }
 }
 
 .image {
@@ -35,31 +31,11 @@ main {
     @include height(450px);
 }
 
-.opacidad {
+.opacity {
     opacity: 80%;
 }
 
-.titleImage2 {
-    position: absolute;
-    margin: 10px;
-    z-index: 10;
-    color: #E49BC4;
-    bottom: 20px;
-    font-size: map-get($fontSizes, 25px);
-}
-
-.someText {
-    @extend .titleImage2;
-    bottom: 0;
-    font-size: map-get($fontSizes, 15px);
-    color: white;
-}
-
-.centerText {
-    text-align: center;
-}
-
-.subtitle3 {
+.subtitle1 {
     color: white;
     font-size: map-get($fontSizes, 30px);
     margin: 40px;
