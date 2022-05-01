@@ -6,40 +6,26 @@
   align-items: center;
   grid-row-gap: 10px; }
 
+ol, ul {
+  padding-left: 0; }
+
 main {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .size {
-  font-size: 12pt; }
+  font-size: 15px; }
 
 .img-container {
   position: relative; }
 
-.imagen1 {
-  height: 450px; }
-
-.imagen2 {
-  height: 450px; }
+.image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; }
 
 .opacidad {
   opacity: 80%; }
 
-/*.titleImage1 {
-    position: absolute;
-    margin: 10px;
-    z-index: 10;
-    font-size: 25px;
-    color: white;
-}
-
-.subtitleImage1 {
-    position: absolute;
-    margin: 10px;
-    top: 50px;
-    z-index: 10;
-    font-size: 15px;
-    color: white;
-}*/
 .titleImage2 {
   position: absolute;
   bottom: 20px;
@@ -56,7 +42,7 @@ main {
   font-size: 15px;
   color: white; }
 
-.centrar {
+.centerText {
   text-align: center; }
 
 .subtitle3 {
@@ -69,10 +55,26 @@ main {
   font-size: 15px;
   margin: 40px; }
 
-.searchButton {
-  color: white;
-  border-color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+.searchContainer {
+  display: flex; }
+  .searchContainer .searchButton {
+    color: white;
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 300px; } }
+
+@media screen and (max-width: 320px) {
+  .image {
+    height: 200px;
+    padding: 3px 0; }
+  .someText {
+    font-size: 13px; }
+  .navbar {
+    justify-content: center;
+    display: grid; } }
 
 .form {
   font-size: 20px;
@@ -98,7 +100,6 @@ body {
 
 ul {
   list-style: none;
-  font-size: 20px;
   font-weight: bold;
   text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
@@ -109,7 +110,17 @@ li {
   padding: 10px;
   text-decoration: none; }
 
+.logoContainer {
+  display: flex;
+  justify-content: center; }
+
 .logo {
   width: 160px;
-  position: relative;
-  left: 45%; }
+  position: relative; }
+
+@media screen and (max-width: 320px) {
+  ul {
+    list-style: none; }
+  li {
+    display: block;
+    position: relative; } }
