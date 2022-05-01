@@ -20,8 +20,8 @@ main {
 
 .image {
   width: 100%;
-  height: 450px;
-  object-fit: cover; }
+  object-fit: cover;
+  height: 450px; }
 
 .opacidad {
   opacity: 80%; }
