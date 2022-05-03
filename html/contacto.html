@@ -19,7 +19,7 @@
             </div>
             <nav class="col-12 navbar">
                 <ul class="centerText size">
-                    <li><a href="index.html" class="link-light nav-link">Inicio</a></li>
+                    <li><a href="../index.html" class="link-light nav-link">Inicio</a></li>
                     <li><a href="../html/catalogo.html" class="submenu link-light nav-link">Catálogo</a></li>
                     <li><a href="../html/blog.html" class="submenu link-light nav-link">Blog</a></li>
                     <li><a href="../html/contacto.html" class="submenu link-light nav-link">Contacto</a></li>
@@ -30,24 +30,31 @@
                 </form>              
             </nav>
         </header>
-
-        <form>
-            <text class="form contactInput">¡Contactanos!</text>
-            <div class="col-md-6 col-sm-12">
-                <input class="contactInput" name="text" type="text" placeholder="Ingrese su nombre">
+        <div>
+            <form class="col-12">
+                <text class="form">¡Contactanos!</text>
+                <div class="center">
+                    <input class="contactInput form-control" name="text" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <div class="center">
+                    <input class="contactInput form-control" name="email" type="email" placeholder="Ingrese su e-mail">
+                </div>
+                <div class="center">
+                    <textarea class="contactInput form-control" name="comment" id="" cols="50" rows="10" placeholder="Ingrese su consulta..."></textarea>
+                </div>
+                <div class="center">
+                    <input class="contactButton form-control" type="submit">
+                </div>
+            </form>
+        <div class="row paddingMaps">
+            <div>
+                <text class="form paddingText">¿Donde encontrarnos?</text>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <input class="contactInput" name="email" type="email" placeholder="Ingrese su e-mail">
+            <div class="center">
+                <iframe class="googleMaps animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0285720010907!2d-56.19356908476229!3d-34.905732480382284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8032b3458fe7%3A0x1a0820227b53578b!2sPlaza%20De%20Cagancha!5e0!3m2!1ses!2suy!4v1648073117721!5m2!1ses!2suy" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
-            <textarea class="contactInput" name="comment" id="" cols="50" rows="10" placeholder="Ingrese su consulta..."></textarea>
-            <div class="col-md-6 col-sm-12">
-                <input class="contactInput" type="submit">
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <iframe class="googleMaps animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0285720010907!2d-56.19356908476229!3d-34.905732480382284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8032b3458fe7%3A0x1a0820227b53578b!2sPlaza%20De%20Cagancha!5e0!3m2!1ses!2suy!4v1648073117721!5m2!1ses!2suy" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </form>
-        
+        </div>  
         <footer class="container-fluid">
             <ul class="centerText size">
                 <li class="col-md-2 col-sm-12">Locales</li>

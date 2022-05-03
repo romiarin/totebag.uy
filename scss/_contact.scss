@@ -1,17 +1,38 @@
 .form {
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.contactInput {
-    margin: 20px;
-    size: 20px;
+.center {
+    display: flex;
+    justify-content: center;
+    .contactInput {
+        width: 500px;
+        margin: 20px;
+        size: 20px;
+    }
+    .contactButton {
+    @extend .contactInput;
+    width: 200px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    background-color:#E49BC4;
+    }
+}
+
+.paddingMaps {
+    padding: 30px;
+}
+
+.paddingText {
+    padding: 30px;
 }
 
 .googleMaps {
-    position: relative;
-    left: 600px;
-    bottom: 320px;
-    object-fit: cover;
+    width: 500px;
 }

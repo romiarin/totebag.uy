@@ -9,7 +9,7 @@
     }
 
 .productImage {
-    width: 400px;
+    width: 450px;
     @include height (400px);
     position: relative;
     object-fit: cover;
@@ -21,8 +21,8 @@
 
 @media screen and (max-width:768px) {
     .productImage {
+        width: 250px;
         @include height(300px);
-        width: 300px;
     }
 }
 
@@ -30,5 +30,8 @@
     .productImage {
         width: 300px;
         @include height(300px);
+    }
+    .imageCatalog {
+        display:contents;
     }
 }

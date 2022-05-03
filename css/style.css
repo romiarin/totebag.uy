@@ -55,19 +55,35 @@ main {
     display: grid; } }
 
 .form {
-  font-size: 20px;
-  text-align: left;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-.contactInput {
-  margin: 20px;
-  size: 20px; }
+.center {
+  display: flex;
+  justify-content: center; }
+  .center .contactInput, .center .contactButton {
+    width: 500px;
+    margin: 20px;
+    size: 20px; }
+  .center .contactButton {
+    width: 200px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    background-color: #E49BC4; }
+
+.paddingMaps {
+  padding: 30px; }
+
+.paddingText {
+  padding: 30px; }
 
 .googleMaps {
-  position: relative;
-  left: 600px;
-  bottom: 320px;
-  object-fit: cover; }
+  width: 500px; }
 
 .transition2 {
   height: 450px;
@@ -78,7 +94,7 @@ main {
   height: 500px; }
 
 .productImage {
-  width: 400px;
+  width: 450px;
   height: 400px;
   position: relative;
   object-fit: cover; }
@@ -88,13 +104,15 @@ main {
 
 @media screen and (max-width: 768px) {
   .productImage {
-    height: 300px;
-    width: 300px; } }
+    width: 250px;
+    height: 300px; } }
 
 @media screen and (max-width: 320px) {
   .productImage {
     width: 300px;
-    height: 300px; } }
+    height: 300px; }
+  .imageCatalog {
+    display: contents; } }
 
 .transition1 {
   height: 500px;
