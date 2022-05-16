@@ -121,14 +121,38 @@ main {
 .transition1:hover {
   height: 500px; }
 
-.article {
+.article, .articleText {
   height: 450px;
+  width: 100%;
   position: relative;
   object-fit: cover;
-  padding: 40px; }
+  padding: 20px; }
+
+.articleText {
+  height: 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center; }
 
 .imageArticle {
   display: flex; }
+
+@media screen and (max-width: 768px) {
+  .article, .articleText {
+    height: 300px; }
+  .articleText {
+    height: 20px;
+    font-size: 20px; } }
+
+@media screen and (max-width: 320px) {
+  .article, .articleText {
+    height: 220px;
+    padding: 20px; }
+  .imageArticle {
+    display: contents; }
+  .articleText {
+    height: 20px;
+    font-size: 20px; } }
 
 html {
   font-size: 62.5%; }
