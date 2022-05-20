@@ -3,9 +3,6 @@
 @mixin height ($height) {
     height: $height;
 }
-main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .img-container {
     position: relative;
@@ -16,12 +13,15 @@ main {
         color: #E49BC4;
         bottom: 20px;
         font-size: map-get($fontSizes, 25px);
+        letter-spacing: 5px;   
+        font-weight: bold;
     }
     .someText {
         @extend .titleImage2;
         bottom: 0;
         font-size: map-get($fontSizes, 15px);
         color: white;
+        letter-spacing: 0px;
     }
 }
 
@@ -29,6 +29,7 @@ main {
     width: 100%;
     object-fit: cover;
     @include height(450px);
+    padding: 5px;
 }
 
 .opacity {
@@ -36,23 +37,47 @@ main {
 }
 
 .subtitle1 {
+    text-align: center;
     color: white;
-    font-size: map-get($fontSizes, 30px);
-    margin: 40px;
+    font-size: map-get($fontSizes, 20px);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 
 .p1 {
+    text-align: center;
     color: white;
     font-size: map-get($fontSizes, 15px);
-    margin: 40px;
+    font-weight: bold;
 }
+
+.p2 {
+    @extend .p1;
+    margin-bottom: 30px;
+}
+
 .searchContainer {
     display: flex;
-    .searchButton{
-        color: white;
-        border-color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+}
+
+.searchButton{
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.form-control {
+    border-color: white;
+    font-weight: bold;
+}
+
+
+.centerForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width:768px) {

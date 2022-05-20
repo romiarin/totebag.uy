@@ -8,18 +8,64 @@ html {
 	font-size: 62.5%;
 }
 
+.row {
+    --bs-gutter-x: 0rem;
+}
+
 body {
     background:#E49BC4;
-    }
+    font-family: 'Montserrat', sans-serif;
+}
 
 ol, ul {
     padding-left: 0;
 }
+
+footer ul li {
+    padding: 1px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.white {
+    border-top: 5px solid white;
+}
+
 .size {
     font-size: map-get($fontSizes, 15px);
 }
-.centerText {
+
+.icon {
+    font-size: 20px;
+    padding: 10px;
+    color:#E49BC4;
+}
+
+footer {
+    background-color: white;
+    .footerTitle {
         text-align: center;
+        color:#E49BC4;
+        padding: 10px;
+        font-weight: bold;
+        font-size: map-get($fontSizes, 20px);
+    }
+
+    .footerText {
+        @extend .footerTitle;
+        padding: 0px;
+        font-size: map-get($fontSizes, 15px);
+    }
+    
+    .footerCopyright {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: map-get($fontSizes, 10px);
+    }
 }
 
 .animate__animated.animate__fadeIn {
@@ -30,7 +76,6 @@ ul {
     list-style: none;
     font-weight: bold;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 li {
