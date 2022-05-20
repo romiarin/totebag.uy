@@ -89,10 +89,19 @@ li {
     display: flex;
     justify-content: center;
 }
+.cartContainer {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 15px;
+    .cart {
+    font-size: 20px;
+    padding: 10px; 
+    color: white;
+    }
+}
 
 .logo {
-    width: 160px;
-    position: relative;   
+    width: 160px;  
 }
 
 @media screen and (max-width:425px) {
