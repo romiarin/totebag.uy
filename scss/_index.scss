@@ -86,7 +86,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .image {
         @include height(200px);
         padding: 3px 0;

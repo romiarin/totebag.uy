@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .productImage {
         width: 300px;
         @include height(300px);
