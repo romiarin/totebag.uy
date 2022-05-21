@@ -1,0 +1,41 @@
+.cart {
+    display: flex;
+    justify-content: center;
+}
+
+.cartProduct {
+    width: 150px;
+}
+
+.cartContainer2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.cartSubtitle {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cartDescription {
+    color: white;
+    font-weight: bold;
+    font-size: map-get($fontSizes, 13px);
+}
+
+.quantityInput {
+    width: 50px;
+    height: 30px;
+    color: #E49BC4;
+    font-size: 15px; 
+}
+
+.quitarButton {
+    color: white;
+    font-weight: bold;
+}
+
+

@@ -174,6 +174,39 @@
     height: 20px;
     font-size: 20px; } }
 
+.cart {
+  display: flex;
+  justify-content: center; }
+
+.cartProduct {
+  width: 150px; }
+
+.cartContainer2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center; }
+
+.cartSubtitle {
+  color: white;
+  font-weight: bold;
+  text-align: center; }
+
+.cartDescription {
+  color: white;
+  font-weight: bold;
+  font-size: 13px; }
+
+.quantityInput {
+  width: 50px;
+  height: 30px;
+  color: #E49BC4;
+  font-size: 15px; }
+
+.quitarButton {
+  color: white;
+  font-weight: bold; }
+
 html {
   font-size: 62.5%; }
 
@@ -189,6 +222,20 @@ ol, ul {
 
 footer ul li {
   padding: 1px; }
+
+.btn-primary {
+  background-color: white;
+  color: #E49BC4;
+  border-color: #E49BC4;
+  border-style: groove;
+  font-weight: bold;
+  width: 300px;
+  font-size: 15px; }
+
+.btn:hover {
+  background-color: #E49BC4;
+  color: white;
+  border-color: white; }
 
 .centerText {
   text-align: center; }
