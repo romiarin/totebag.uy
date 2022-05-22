@@ -32,7 +32,7 @@ footer ul li {
     border-color: #E49BC4;
     border-style: groove;
     font-weight: bold;
-    width: 300px;
+    width: 400px;
     font-size: 15px;
 }
 
@@ -42,6 +42,9 @@ footer ul li {
     border-color: white;
 }
 
+.btn:focus {
+    @extend .btn:hover;
+}
 
 .centerText {
     text-align: center;
@@ -129,5 +132,8 @@ li {
     li {
         display: block;
         position: relative;
+    }
+    .btn-primary {
+        font-size: 13px;
     }
 }

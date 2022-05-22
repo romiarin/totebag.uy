@@ -88,7 +88,7 @@
 
 @media screen and (max-width:425px) {
     .image {
-        @include height(200px);
+        @include height(300px);
         padding: 3px 0;
     }
     .someText { 

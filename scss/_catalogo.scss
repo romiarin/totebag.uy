@@ -32,6 +32,8 @@
         @include height(300px);
     }
     .imageCatalog {
-        display:contents;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

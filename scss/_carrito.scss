@@ -38,4 +38,17 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:425px) {
+    .cartProduct {
+        width: 200px;
+    }
+    .cartContainer2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cartSubtitle {
+        width: 100%;
+    }
+}
+
 
